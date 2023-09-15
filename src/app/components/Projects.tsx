@@ -5,24 +5,24 @@ const Projects:React.FunctionComponent = () => {
   const card_info = [
     {
       id: "1",
-      heading: "Sheeran Song Generator",
-      desc: "a song generator that is made using lstm in tensorflow, backend with flask",
+      heading: "Sheeran Song Generator🎸",
+      desc: "a song generator model architecture made in lstm and backend done in flask",
       alt: "song gen",
       image: "/songgen.webp",
       link: "https://github.com/Vishakh2012/song_lyric_generator"
     },
     {
       id: "2",
-      heading: "fine-tuned hugging face model",
-      desc: "finetuning of a hugging face model for sarcasm detection",
+      heading: "finetuned hugging face🤗 model",
+      desc: "finetuned of a hugging face model for sarcasm detection with over 96 percent accuracy",
       alt: "hugging face",
       image: "/sar.webp",
-      link: "https://github.com/Vishakh2012/finetuning/"
+      link: "https://github.com/Vishakh2012/finetuning"
     },
     {
       id: "3",
-      heading: "guess the dog",
-      desc: "for all the dog lovers, guess the breed of the dog, made with imagenet api",
+      heading: "guess the dog🐶",
+      desc: "for all the dog lovers, guess the breed of the dog, made with imagenet and react.js",
       alt: "song gen",
       image: "/dog.webp",
       link: "https://github.com/Vishakh2012/whosthedog"
@@ -35,7 +35,7 @@ const Projects:React.FunctionComponent = () => {
       </h1>
       <div className="flex flex-col justify-center items-center w-screen">
         <div className="flex justify-center w-5/6 item-center">
-          <div className="flex justify-between carousel carousel-center rounded-md">
+          <div className="flex carousel rounded-md">
             {card_info.map((item) => (
               <div
                 className="carousel-item mx-3"

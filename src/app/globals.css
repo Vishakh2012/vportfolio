@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html{scroll-behavior: smooth;}
+html{scroll-behavior: smooth;
+    overflow-y:scroll ;
+    overflow-x:hidden;
+    min-width: none;
+   
+width: 100vw;
+}
 
 .btn-ghost{
     @apply hover:bg-opacity-0;

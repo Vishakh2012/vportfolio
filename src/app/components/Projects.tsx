@@ -35,7 +35,7 @@ const Projects:React.FunctionComponent = () => {
       </h1>
       <div className="flex flex-col justify-center items-center w-screen">
         <div className="flex justify-center w-5/6 item-center">
-          <div className="flex carousel rounded-md">
+          <div className="flex carousel carousel-vertical rounded-md">
             {card_info.map((item) => (
               <div
                 className="carousel-item mx-3"

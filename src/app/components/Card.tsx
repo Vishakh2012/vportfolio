@@ -23,11 +23,11 @@ const Card: React.FunctionComponent<cardProps> = (props) => {
         <h2 className="card-title">{props.heading}</h2>
         <p>{props.desc}</p>
         <div className="card-actions justify-end">
+        <a href={props.link}>
           <button className="btn btn-primary w-[101px] h-[48px] rounded-full">
-            <a href={props.link}>
               <BiLogoGithub size={24} />
-            </a>
           </button>
+          </a>
         </div>
       </div>
     </div>
